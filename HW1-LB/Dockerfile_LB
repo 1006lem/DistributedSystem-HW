@@ -1,0 +1,17 @@
+# Dockerfile
+
+FROM python:3.11
+
+# Set working directory to /app
+WORKDIR /app
+
+COPY ./LB /app/LB
+
+# Copy requirements.txt & install dependencies to install the required packages
+COPY ./LB/requirements.txt requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+ENV PYTHONPATH /app
+
+CMD ["tail", "-f", "/dev/null"]
+
