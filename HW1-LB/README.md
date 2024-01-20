@@ -19,7 +19,7 @@
 
 ### 아키텍처
 
-<p align="center"><img width="600" alt="image" src="https://github.com/1006lem/DistributedSystem-HW/assets/68532437/ddb66790-5a90-4f20-b5f2-60a0576772be"></p>
+<p align="center"><img width="100%" alt="image" src="https://github.com/1006lem/DistributedSystem-HW/assets/68532437/ddb66790-5a90-4f20-b5f2-60a0576772be"></p>
 
 ---
 
